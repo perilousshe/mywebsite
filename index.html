@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Home-page</title>
+</head>
+<body>
+   <div class="navbar">
+   <a href="index.html"><img title= "logo" src="logo.jpeg"></a>&#160;&#160;&#160;&#160;&#160;
+   <a href="index.html">Home</a> &#160; &#160;&#160;&#160;&#160;
+   <a href="about.html">About</a> &#160; &#160;&#160;&#160;&#160;
+   <a href="projects.html">Projects</a> &#160; &#160;&#160;&#160;&#160;
+   <a href="contact.html">Contact-Us</a> &#160;&#160;&#160;&#160;&#160;
+   <button onclick="myfun()">Theme</button>
+   </div> 
+
+   <div class="con">
+    <p style="text-align: center;line-height: 60px;">Welcome to my website !</p>
+   </div>
+   <br>
+   <br>
+  
+
+   <div class="footer">
+  <details>
+    <summary>
+        Built with ❤️
+    </summary>
+    <p>By Shevy</p>
+  </details>
+
+   </div>
+   <script>
+ function myfun(){
+   var element= document.body;
+      element.classList.toggle('black');
+  }
+
+    
+   </script>
+</body>
+</html>

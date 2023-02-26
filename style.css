@@ -1,0 +1,165 @@
+*{
+    padding:0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+.navbar{
+      background-color:black;
+      padding:20px;
+      width:100%;
+      left:0;
+      top:0;
+      position:fixed;
+     display: inline-block;
+     white-space: nowrap;
+      
+}
+.navbar a {
+   outline-style: none;
+   color:white;
+   text-decoration:none;
+   display: inline;
+}
+.navbar a:hover{
+text-decoration:underline;
+color:white;
+}
+.navbar button{
+    padding:5px;
+    border-radius:15px;
+    color:black;
+
+}
+.navbar img{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    display: inherit;
+   
+   
+    
+}
+.footer{
+    background-color:black;   
+    left:0;
+    bottom:0;
+    width:100%;
+    position:fixed;
+    color:white;
+   
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer a:hover{
+    color:gray;
+}
+.black
+{
+    background-color:black;
+    color:white;
+    
+}
+
+.container
+{
+    width:350px;
+    height:325px;
+    border-style: dashed;
+    margin: auto;
+    animation-name:trans;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes trans{
+0%{
+    border-color: black;
+
+}
+25%{
+    border-color: white;
+
+}
+50%{
+    border-color: black;
+}
+75%{
+    border-color:rgb(255, 255, 255);
+}
+100%{
+    border-color:rgb(0, 0, 0) ;
+}
+}
+.container input{
+    border-style: none;
+    outline:none;
+    padding:3px;
+    border-radius:5px;
+   
+}
+.container input:hover{
+    background-color: rgb(175, 166, 166);
+    border-style: dashed;
+    animation-name:trans;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+}
+.container textarea{
+    padding:20px;
+    border-radius:5px;
+}
+textarea:hover{
+    background-color:  rgb(175, 166, 166);
+    border-style: dashed;
+    animation-name:trans;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+}
+.con{
+    height:100px;
+    width:300px;
+    border-style:dashed;
+    border-radius:5px;
+    margin: auto;
+    margin-top:200px;
+    animation-name:trans;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+}
+    
+
+.content img{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+.tree{
+    height:400px;
+    width:400px;
+    animation-name:move;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+       opacity:1;
+    
+    }
+    25%{
+      opacity: 0.5;
+    
+    }
+    50%{
+       opacity:1;
+    }
+    75%{
+       opacity:0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
